@@ -1,0 +1,4 @@
+baseURL = "http://qmax.io"
+languageCode = "en-us"
+title = "A Lean ToolKit Workspace"
+theme = "creative"

@@ -1,0 +1,107 @@
+baseurl = "https://qmax.io/"
+languageCode = "en-us"
+title = "qmax.io = Lean + AI"
+theme = "creative"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "qmax.io"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "qmax.io"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Quick"
+		subtitle   = "Enable higer efficiency and better quality in your business."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "One Stop toolkit space to help businesses deploy strategy, explore improvement opportunities and make them happen."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Lean Thinking + AI"
+            description = "Integrate Lean, TOC, SixSigam, TRIZ and AI together to help business get benefits from now."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Ready to Use"
+			description = "Just a few time steps, you and your team could discover the solution to problems together in a logical, seamless flow space."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "Enable you to use up-to-date software applications without the need to purchase expensive systems or pay for their maintenance."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Effective Communication"
+            description = "One inteface to keep everyone on track and on the same pare, free you to focusing on the real problem."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "We're Working on the Building, Comming Soon!"
+
+		#[params.aside.button]
+		#	text = "Download now"
+		#	link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Start Without Waiting"
+		description = "Stop waiting for the perfect time. Start the Lean journey from here. There are a limited number of tickets available for early brids. <br>The ticket includes **[ASQ YB level](https://asq.org/cert/resource/pdf/certification/SSYB%20BOK-final.pdf) training** + **3 months project coaching** + **1 year qmax.io subscription(5 members)**. <br> If you have any query please feel free to contact us."
+		phone = ""
+		email = "contact@qmax.io"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
